@@ -4,10 +4,21 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <nav className='bg-blue-50'>
+        <ul className='flex py-3'>
+          <li className='px-4'>
+            About Me
+          </li>
+          <li>My Skills</li>
+          <li>
+            Projects
+          </li>
+          <li>Contact Me</li>
+        </ul>
+      </nav>
+      <header></header>
+      <main></main>
+      <footer></footer>
     </>
   )
 }
