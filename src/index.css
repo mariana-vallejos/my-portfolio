@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  --color-dark1: #0F103F;
+  --color-dark2: #1C1C65;
+  --color-dark3: #2F2F8A;
+  --color-accent: #C961DE;
+  --color-blue: #2954A3;
+
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #0F103F;
+    color: white;
+}
