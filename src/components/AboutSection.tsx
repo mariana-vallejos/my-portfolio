@@ -4,7 +4,7 @@ import bg from "../assets/img/BG Small Circle.png";
 
 const AboutSection = () => {
   return (
-    <section className="flex justify-center py-12 relative">
+    <section className="flex justify-center py-12 relative my-5">
       <div
         className="relative flex h-[28rem] w-[30rem] items-center rounded-full  bg-gradient-to-r from-accent to-blue"
       >

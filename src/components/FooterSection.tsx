@@ -5,7 +5,7 @@ import item2 from "../assets/img/Illustration3.png";
 
 const FooterSection = () => {
   return (
-    <footer className="relative bg-blue-950 py-5 mt-10 h-48 flex flex-col justify-between text-gray-300 px-4">
+    <footer className="relative bg-blue-950 py-5 mt-20 h-48 flex flex-col justify-between text-gray-300 px-4">
       <img src={item1} alt="" className="w-56 absolute -top-30" />
       <div className="flex py-5 gap-3 justify-around">
         <div>
@@ -32,7 +32,7 @@ const FooterSection = () => {
       <p className="text-center italic pt-4 text-gray-300 border-t-1 w-full">
         Thanks for visiting my portfolio!
       </p>
-      <img src={item2} alt="" className="w-[65%] absolute -bottom-0 right-0" />
+      <img src={item2} alt="" className="w-[55%] absolute -bottom-0 right-0 pointer-events-none backdrop-opacity-5" />
     </footer>
   );
 };
