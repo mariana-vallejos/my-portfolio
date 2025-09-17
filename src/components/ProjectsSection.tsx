@@ -1,7 +1,7 @@
 
 const ProjectsSection = () => {
   return (
-    <div>ProjectsSection</div>
+    <div className="h-96">ProjectsSection</div>
   )
 }
 
