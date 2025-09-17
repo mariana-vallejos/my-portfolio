@@ -4,7 +4,7 @@ import bg from "../assets/img/BG Small Circle.png";
 
 const AboutSection = () => {
   return (
-    <section className="flex justify-center py-12">
+    <section className="flex justify-center py-12 relative">
       <div
         className="relative flex h-[28rem] w-[30rem] items-center rounded-full  bg-gradient-to-r from-accent to-blue"
       >
@@ -23,14 +23,14 @@ const AboutSection = () => {
             real-world solutions.
           </p>
         </div>
-      </div>
-      <img src={bg} alt="" className="w-[42rem] absolute bottom-5 -z-20"/>
-
       <img
         src={item1}
         alt="item"
-        className="absolute right-72 -bottom-14 h-72 z-30"
+        className="absolute -right-20 -bottom-24 h-72 z-30"
       />
+      </div>
+      <img src={bg} alt="" className="w-[42rem] absolute bottom-2 -z-20"/>
+
     </section>
   );
 };

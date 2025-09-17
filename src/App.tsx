@@ -1,5 +1,6 @@
 import './App.css'
 import AboutSection from './components/AboutSection'
+import Header from './components/Header'
 import NavBar from './components/NavBar'
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
   return (
     <>
       <NavBar/>
-      <header></header>
       <main>
+        <Header/> 
         <AboutSection/>
       </main>
       <footer></footer>
